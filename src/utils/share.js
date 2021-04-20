@@ -1,3 +1,5 @@
+import { disable } from "signale"
+
 export const shareToFacebook = (href, text) => {
   window.FB.ui({
     method: 'share',
