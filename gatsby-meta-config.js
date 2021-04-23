@@ -2,8 +2,8 @@ module.exports = {
   title: `코딩코딩`,
   description: `Blog posted about ...`,
   author: `[Hwisung, Kim]`,
-  introduction: `뭐든 즐겁고 재미있게`,
-  siteUrl: `https://www.naver.com`, // Your blog site url
+  introduction: `뭐든 즐겁고 재밌게`,
+  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `Heessong`, // Your GitHub account
@@ -16,7 +16,7 @@ module.exports = {
   keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'Heessong/blog-comments', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
