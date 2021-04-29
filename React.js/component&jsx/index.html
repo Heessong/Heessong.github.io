@@ -68,6 +68,7 @@
 <p><code class="language-text">Component</code>란 재활용 가능한 <code class="language-text">UI</code>의 구성 단위이다</p>
 <p>어떠한 UI구성요소를 만들때 <code class="language-text">Component</code>로 만들면 추후에 같은 UI구성요소를 만들때 그대로 재활용하여 사용할 수 있다</p>
 <p><code class="language-text">Component</code>는 또 다른 <code class="language-text">Component</code>를 포함 할 수 있으며 <code class="language-text">UI</code>단위로 분리되어있기때문에 코드의 수정 및 유지보수에도 훨씬 용이하다</p>
+<br/>
 <h3 id="class-component클래스형" style="position:relative;"><a href="#class-component%ED%81%B4%EB%9E%98%EC%8A%A4%ED%98%95" aria-label="class component클래스형 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Class Component(클래스형)</h3>
 <div class="gatsby-highlight" data-language="react"><pre class="language-react"><code class="language-react">import React from &quot;react&quot; //react 패키지를 받아오는것
 class Component extends React.Component{ //컴포넌트명 선언
@@ -82,6 +83,7 @@ class Component extends React.Component{ //컴포넌트명 선언
 export default Component //다른 컴포넌트에서 재사용 할수 있게 export</code></pre></div>
 <p><code class="language-text">Class Component</code>에서는 반드시 <code class="language-text">render</code> 함수가 있어야한다</p>
 <p><code class="language-text">render</code>함수안에 있는 <code class="language-text">JSX</code>코드를 <code class="language-text">return</code>한다</p>
+</br>
 <h3 id="functional-component함수형" style="position:relative;"><a href="#functional-component%ED%95%A8%EC%88%98%ED%98%95" aria-label="functional component함수형 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functional Component(함수형)</h3>
 <div class="gatsby-highlight" data-language="react"><pre class="language-react"><code class="language-react">import React from &quot;react&quot;
 const Component = () =&gt; {
@@ -93,6 +95,7 @@ const Component = () =&gt; {
 }
 export default Component</code></pre></div>
 <p><code class="language-text">Functional Component</code>는 <code class="language-text">Class Component</code>보다 훨씬 코드가 간결하며 마찬가지로 <code class="language-text">JSX</code>코드들을 <code class="language-text">return</code>한다</p>
+<br/>
 <h3 id="jsx-javascript-syntax-extension" style="position:relative;"><a href="#jsx-javascript-syntax-extension" aria-label="jsx javascript syntax extension permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JSX (JavaScript Syntax Extension)</h3>
 <p><code class="language-text">JSX</code>란 <code class="language-text">React</code>에서 사용하는 <code class="language-text">JavaScript</code> 확장 문법이며  <code class="language-text">Browser</code>에서 동작하는 과정에서 <code class="language-text">Babel</code>을 사용하여 일반 <code class="language-text">JavaScript</code>의 코드로 변환된다</p>
 <p><code class="language-text">HTML tag</code>를 그대로 사용할 수 있어 편리하며 또한 <code class="language-text">JavaScript</code>도 동시에 사용 할 수 있다</p>
