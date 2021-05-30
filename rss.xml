@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[코딩코딩]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://gatsby-starter-bee.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 16:43:48 GMT</lastBuildDate><item><title><![CDATA[react-dates로 달력 만들기]]></title><description><![CDATA[드디어…]]></description><link>https://gatsby-starter-bee.netlify.com/React.js/Calender/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/React.js/Calender/</guid><pubDate>Sun, 30 May 2021 21:03:10 GMT</pubDate><content:encoded>&lt;p&gt;드디어 2차 프로젝트가 시작되었다.&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[코딩코딩]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://gatsby-starter-bee.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 16:56:41 GMT</lastBuildDate><item><title><![CDATA[react-dates로 달력 만들기]]></title><description><![CDATA[드디어…]]></description><link>https://gatsby-starter-bee.netlify.com/React.js/Calender/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/React.js/Calender/</guid><pubDate>Sun, 30 May 2021 21:03:10 GMT</pubDate><content:encoded>&lt;p&gt;드디어 2차 프로젝트가 시작되었다.&lt;br&gt;
 우리팀의 목표는 에어비앤비를 클론코딩하는것!&lt;br&gt;
 어떻게 생겼나 들어가보니..&lt;br&gt;
 메인화면에 떡하니 있는 캘린더..
@@ -48,9 +48,15 @@
 &lt;br&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/58321429/120112420-bc26db00-c1b0-11eb-9909-8a8c20499a3e.gif&quot; alt=&quot;비어비앤비달력&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;임시구현.. 위에 체크인,체크아웃날짜 할 말 많다.. 저거 띄우려고 고생하다보니 hooks와 props의 흐름에대해 많이 배운거같다
-막상 만들고나서보니 진짜 아무것도 아니였던..&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Wesop Review]]></title><description><![CDATA[코드리뷰 작성예정]]></description><link>https://gatsby-starter-bee.netlify.com/Project/WesopReview/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/Project/WesopReview/</guid><pubDate>Mon, 24 May 2021 02:11:02 GMT</pubDate><content:encoded>&lt;p&gt;코드리뷰 작성예정&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1st Team Wesop]]></title><description><![CDATA[Designed By DoSilv in Wesop 위코드에 온지 1달만에 1차 프로젝트가 시작되었고 12일간의…]]></description><link>https://gatsby-starter-bee.netlify.com/Diary/1stWesop/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/Diary/1stWesop/</guid><pubDate>Sun, 23 May 2021 02:11:02 GMT</pubDate><content:encoded>&lt;img src=&quot;https://user-images.githubusercontent.com/58321429/119234772-83608380-bb6a-11eb-8089-9c0006af7f40.png&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
+&lt;p&gt;임시구현.. 갈길이 멀다  라이브러리 써도 2주걸리겠는데..?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;달력 라이브러리의 종류&lt;br&gt;
+react-dates를 선택한 이유&lt;br&gt;
+DateRangePicker,DateRangeController의 차이&lt;br&gt;
+Controller를 적용했을때 처음에 작동안하는이유&lt;br&gt;
+클래스형 reactdates - 함수형으로 전환 , 훅스&lt;br&gt;
+체크인 체크아웃 날짜 - 프롭스&lt;br&gt;
+moment.js 다루기  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Wesop Review]]></title><description><![CDATA[코드리뷰 작성예정]]></description><link>https://gatsby-starter-bee.netlify.com/Project/WesopReview/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/Project/WesopReview/</guid><pubDate>Mon, 24 May 2021 02:11:02 GMT</pubDate><content:encoded>&lt;p&gt;코드리뷰 작성예정&lt;/p&gt;</content:encoded></item><item><title><![CDATA[1st Team Wesop]]></title><description><![CDATA[Designed By DoSilv in Wesop 위코드에 온지 1달만에 1차 프로젝트가 시작되었고 12일간의…]]></description><link>https://gatsby-starter-bee.netlify.com/Diary/1stWesop/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/Diary/1stWesop/</guid><pubDate>Sun, 23 May 2021 02:11:02 GMT</pubDate><content:encoded>&lt;img src=&quot;https://user-images.githubusercontent.com/58321429/119234772-83608380-bb6a-11eb-8089-9c0006af7f40.png&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Designed By DoSilv in Wesop&lt;/p&gt;
 &lt;/blockquote&gt;
