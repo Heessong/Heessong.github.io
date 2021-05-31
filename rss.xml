@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[코딩코딩]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://gatsby-starter-bee.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 16:56:41 GMT</lastBuildDate><item><title><![CDATA[react-dates로 달력 만들기]]></title><description><![CDATA[드디어…]]></description><link>https://gatsby-starter-bee.netlify.com/React.js/Calender/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/React.js/Calender/</guid><pubDate>Sun, 30 May 2021 21:03:10 GMT</pubDate><content:encoded>&lt;p&gt;드디어 2차 프로젝트가 시작되었다.&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[코딩코딩]]></title><description><![CDATA[Blog posted about ...]]></description><link>https://gatsby-starter-bee.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 31 May 2021 07:21:38 GMT</lastBuildDate><item><title><![CDATA[react-dates로 달력 만들기]]></title><description><![CDATA[드디어…]]></description><link>https://gatsby-starter-bee.netlify.com/React.js/Calender/</link><guid isPermaLink="false">https://gatsby-starter-bee.netlify.com/React.js/Calender/</guid><pubDate>Sun, 30 May 2021 21:03:10 GMT</pubDate><content:encoded>&lt;p&gt;드디어 2차 프로젝트가 시작되었다.&lt;br&gt;
 우리팀의 목표는 에어비앤비를 클론코딩하는것!&lt;br&gt;
 어떻게 생겼나 들어가보니..&lt;br&gt;
 메인화면에 떡하니 있는 캘린더..
@@ -48,7 +48,7 @@
 &lt;br&gt;
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/58321429/120112420-bc26db00-c1b0-11eb-9909-8a8c20499a3e.gif&quot; alt=&quot;비어비앤비달력&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;임시구현.. 갈길이 멀다  라이브러리 써도 2주걸리겠는데..?&lt;/p&gt;
+&lt;p&gt;임시구현.. 갈길이 멀다 &lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;달력 라이브러리의 종류&lt;br&gt;
 react-dates를 선택한 이유&lt;br&gt;
