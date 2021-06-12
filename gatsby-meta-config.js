@@ -8,9 +8,9 @@ module.exports = {
     twitter: ``, // Your Twitter account
     github: `Heessong`, // Your GitHub account
     medium: ``, // Your Medium account
-    facebook: ``, // Your Facebook account
+    facebook: `Heesssong`, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
-    instagram: ``, // Your Instagram account
+    instagram: `_.heesong._`, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
   keywords: [`blog`],
@@ -27,5 +27,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '0', // Add your google analytics tranking ID
+  ga: 'G-PXY94DB8GJ', // Add your google analytics tranking ID
 }

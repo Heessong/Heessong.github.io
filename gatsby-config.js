@@ -4,6 +4,14 @@ module.exports = {
   siteMetadata: metaConfig,
   plugins: [
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `G-PXY94DB8GJ`,
+        head: false,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
@@ -96,8 +104,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://your-blog.netlify.app',
-        sitemap: 'https://your-blog.netlify.app/sitemap.xml',
+        host: 'https://heessong.github.io',
+        sitemap: 'https://heessong.github.io/sitemap.xml',
         policy: [
           {
             userAgent: '*',

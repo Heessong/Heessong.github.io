@@ -8,6 +8,6 @@ lang: 'en'
 
 <div align="center">
 
-_위코드 부트캠프 진행중_
+_안녕하세요_
 
 </div>
