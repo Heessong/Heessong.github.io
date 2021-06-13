@@ -2,7 +2,7 @@
 title: 'Semantic Web'
 date: 2021-04-12 16:21:13
 category: 'HTML'
-draft: false
+draft: true
 ---
 
 ### Semantic Web
