@@ -8,6 +8,6 @@ lang: 'en'
 
 <div align="center">
 
-_안녕하세요_
+Contact : heesong1130@gmail.com
 
 </div>

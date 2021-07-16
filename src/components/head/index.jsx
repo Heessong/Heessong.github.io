@@ -24,7 +24,7 @@ export function Head({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `naver-site-verification`,
-                content: `verificationCode`,
+                content: `39977fad34b02f1cde192f28d0b76f3b22e675bd`,
               },
               {
                 name: `description`,

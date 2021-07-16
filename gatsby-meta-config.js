@@ -1,8 +1,8 @@
 module.exports = {
-  title: `코딩코딩`,
+  title: `휘성's 지식창고`,
   description: `Blog posted about ...`,
   author: `[Hwisung, Kim]`,
-  introduction: `뭐든 즐겁고 재밌게`,
+  introduction: `무엇이든 즐겁고 재밌게`,
   siteUrl: `https://heessong.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
